@@ -18,7 +18,7 @@ body {
 }
 
 .container > div:nth-child(3n) {
-  background-color: #eeeeee;
+  background-color: #0f0f0f;
 }
 
 .container > div:nth-child(2n) {
