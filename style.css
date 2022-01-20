@@ -54,7 +54,7 @@ button:hover {
 
 .header {
   grid-column: 1 / -1;
-  background-image: url(/img/movie-city-logo-png-transparent.png);
+  background-image: url(./img/movie-city-logo-png-transparent.png);
   height: 100px;
   background-size: contain;
   background-repeat: no-repeat;
