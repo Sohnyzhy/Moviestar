@@ -13,6 +13,8 @@
 
 body {
   margin: 0;
+  background-color: #eeeeee;	
+
 }
 
 .container > div:nth-child(1n) {
@@ -54,13 +56,15 @@ button:hover {
 
 .header {
   grid-column: 1 / -1;
-  background-image: url(/img/movie-city-logo-png-transparent.png);
+  background-image: url("../Moviestar/img/movie-city-logo-png-transparent.png");
   height: 100px;
   background-size: contain;
   background-repeat: no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-position: center;
+  
   
  
 }
