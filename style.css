@@ -56,6 +56,11 @@ body {
   }
 .content {
   grid-column: 1 / -1;
+  flex-direction: column;
+}
+
+.content > p {
+  padding: 5%;
 }
 
 .footer {
