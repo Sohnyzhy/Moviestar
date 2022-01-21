@@ -1,6 +1,5 @@
 iframe {
   padding: 20px;
-  
 }
 
 a {
@@ -31,11 +30,22 @@ a:hover {
   margin: 0px;
 }
 
-
 .footer {
-  font-size: 14px ;
+  font-size: 14px;
 }
 
 .game-shots {
   padding: 20px;
+}
+
+.mail {
+  color: white;
+}
+
+.mail:hover {
+  color: blue;
+}
+
+.mail-list {
+  list-style-type: none;
 }
