@@ -23,6 +23,7 @@ background-color: #eeeeee;
 
 .container > div:nth-child(3n) {
 background: rgba(0, 0, 0, 0.9);
+padding: 50px;
 }
 
 .container > div:nth-child(2n) {
@@ -68,6 +69,16 @@ background-position: center;
 
 
 }
+
+#readme{
+  text-decoration: none;
+  color: white;
+}
+#readme:hover {
+  color: rgb(255, 232, 202);
+
+
+}
 .menu {
   grid-column: 1 /2;
 }
@@ -80,6 +91,7 @@ background-position: center;
 grid-column: 1 / -1;
 flex-direction: column;
 
+
 }
 
 .content > p {
@@ -91,6 +103,11 @@ grid-column: 1 / -1;
 }
 
 @media only screen and (max-width: 768px) {
+
+  iframe{
+    width: 250px;
+    height: 250px;
+  }
   
   .container {
       grid-column: 1;
@@ -102,6 +119,8 @@ grid-column: 1 / -1;
 .content {
   grid-column: 1 / -1;
 }
+#topmenu {
+  flex-direction: column; }
 
 .menu {
   grid-column: 1 / -1;
@@ -112,3 +131,4 @@ img {
 width: 75%;
 align-items: center;
 }
+
